@@ -50,7 +50,7 @@ int main(int argc, char const *argv[])
 
     // Get directory of templates
     string template_folder = getenv("SCRIPTS");
-    template_folder += +"/../templates/python/.";
+    template_folder += +"/templates/python/.";
 
     // Copy all templates into working directory
     cout << "Copy template files..." << endl;
